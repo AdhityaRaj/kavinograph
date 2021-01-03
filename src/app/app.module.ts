@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
+import { ImgGridComponent } from './img-grid/img-grid.component';
+import { PhotographsComponent } from './photographs/photographs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    ImgGridComponent,
+    PhotographsComponent
   ],
   imports: [
     BrowserModule,
