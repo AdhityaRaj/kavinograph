@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { ImgGridComponent } from './img-grid/img-grid.component';
 import { PhotographsComponent } from './photographs/photographs.component';
+import { SketchesComponent } from './sketches/sketches.component';
+import { GraphicsComponent } from './graphics/graphics.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PhotographsComponent } from './photographs/photographs.component';
     NavbarComponent,
     HomeComponent,
     ImgGridComponent,
-    PhotographsComponent
+    PhotographsComponent,
+    SketchesComponent,
+    GraphicsComponent
   ],
   imports: [
     BrowserModule,
