@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="/" routerLink="/">KAVINOGRAPH<span style="color: red;">.</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -6,20 +6,21 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center align-items-center">
-          <li class="nav-item mx-2"><a class="nav-link" aria-current="page" href="/" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" aria-current="page" href="/" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">Home</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               My Work
             </a>
             <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-              <li class="nav-item mx-2"><a href="/mywork/3dwork" routerLink="/mywork/3dwork" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link">3D Work</a></li>
-              <li class="nav-item mx-2"><a href="/mywork/graphicdesign" routerLink="/mywork/graphicdesign" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link">Graphic Design</a></li>
-              <li class="nav-item mx-2"><a href="/mywork/sketches" routerLink="/mywork/sketches" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link">Sketches</a></li>
-              <li class="nav-item mx-2"><a href="/mywork/photographs" routerLink="/mywork/photographs" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link">Photographs</a></li>
+              <li class="nav-item mx-2"><a href="/mywork/3dwork" routerLink="/mywork/3dwork" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">3D Work</a></li>
+              <li class="nav-item mx-2"><a href="/mywork/graphicdesign" routerLink="/mywork/graphicdesign" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">Graphic Design</a></li>
+              <li class="nav-item mx-2"><a href="/mywork/sketches" routerLink="/mywork/sketches" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">Sketches</a></li>
+              <li class="nav-item mx-2"><a href="/mywork/photographs" routerLink="/mywork/photographs" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">Photographs</a></li>
+              <li class="nav-item mx-2"><a href="/#projects" routerLink="/" fragment="projects" class="nav-link" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">Projects</a></li>
             </ul>
           </li>
-          <li class="nav-item mx-2"><a href="/aboutme" routerLink="/aboutme" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link">About Me</a></li>
-          <li class="nav-item mx-2"><a href="/#contactme" routerLink="/" fragment="contactme" class="nav-link">Contact Me</a></li>
+          <li class="nav-item mx-2"><a href="/aboutme" routerLink="/aboutme" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">About Me</a></li>
+          <li class="nav-item mx-2"><a href="/#contactme" routerLink="/" fragment="contactme" class="nav-link" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">Contact Me</a></li>
         </ul>
       </div>
     </div>
