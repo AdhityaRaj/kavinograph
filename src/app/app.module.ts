@@ -9,6 +9,8 @@ import { ImgGridComponent } from './img-grid/img-grid.component';
 import { PhotographsComponent } from './photographs/photographs.component';
 import { SketchesComponent } from './sketches/sketches.component';
 import { GraphicsComponent } from './graphics/graphics.component';
+import { RendersComponent } from './renders/renders.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { GraphicsComponent } from './graphics/graphics.component';
     ImgGridComponent,
     PhotographsComponent,
     SketchesComponent,
-    GraphicsComponent
+    GraphicsComponent,
+    RendersComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
