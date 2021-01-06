@@ -18,8 +18,9 @@ export class GraphicsComponent implements OnInit {
   createSrcMap() {
     for (let index = 0; index < 3; index++) {
       let array: Array<String> = [];
-      for (let no = 1; no<=2; no++){
-        array.push('assets/mywork/graphics/graphic_'+(no+index*2)+'.jpg');
+      for (let no = 1; no<=4; no++){
+        if(no+index*4 <= 11)
+          array.push('assets/mywork/graphics/graphic_'+(no+index*4)+'.jpg');
       }
       this.imgSrc.push(array);
     }
