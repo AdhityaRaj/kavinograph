@@ -1,28 +1,20 @@
 <!-- Header -->
-<section id="header" class="d-md-none d-flex container-fluid d-flex bg-dark pt-5">
-    <div class="container">
-        <h1 class="card-title mb-5">Hi, i am Kavin Arulnambi, a Freelance Artist from Chennai , India</h1>
-        <hr>
-    </div>
-</section>
-<section id="header" class="d-none d-md-flex container-fluid full-body bg-dark" style="background-image: url('assets/about.jpg')">
-    <div class="container d-flex">
-        <div class="row">
-            <div class="col-12 col-md-6 h-md-auto"></div>
-            <div class="col-12 col-md-6 align-self-center">
-                <div class="card mt-auto">
-                    <div class="card-body p-4">
-                        <h1 class="card-title mb-5">Hi, i am Kavin Arulnambi, a Freelance Artist from Chennai , India</h1>
-                        <h2 class="card-subtitle">Nice to meet you too!</h2>
-                        <p class="fs-4 card-text mt-4">I’m doing my bachelors degree in Visual Communications in Chennai, i have a background in Photography, Aesthetics, Music, 3D, Video and Photo Manipulation</p>
-                    </div>
-                </div>
+<section id="header" class="d-flex container-fluid md-full-body bg-dark">
+    <div class="container-fluid d-flex align-items-center">
+        <div class="card ms-auto">
+            <div class="card-body p-2">
+                <h1 class="card-title">KAVINOGRAPH<span style="color: red;">.</span></h1>
+                <h2 class="card-subtitle mb-md-5"></h2>
+                <span class="d-none d-md-inline">
+                    <a href="/#mywork" class="btn card-btn-pri">Swipe Down <i class="im im-angle-down" style="color: red;"></i></a>
+                    <a href="/aboutme" routerLink="aboutme" class="btn card-btn-sec ms-2">About Me</a>
+                </span>
             </div>
         </div>
     </div>
 </section>
 <!-- Works -->
-<section id="mywork" class="d-flex container-fluid full-body bg-dark pt-5">
+<section id="mywork" class="d-flex container-fluid full-body bg-dark pt-md-5">
     <div class="d-flex justify-content-center container p-4">
         <div class="row">
             <div class="d-flex col-12 col-md-6 p-4">
@@ -74,7 +66,7 @@
 <section id="projects" class="container-fluid py-4 bg-dark">
     <h1 class="text-center t-title mb-3">Projects</h1>
     <div class="container w-lg-50">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="false" data-bs-touch="true" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="3000" data-bs-touch="true" data-bs-ride="carousel">
             <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="card h-100" style="color:black">
@@ -108,11 +100,11 @@
             </div>
             </div>
             <a style="opacity: 1;" class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-                <span class="bg-dark rounded-circle p-2" aria-hidden="true"><i class="im im-angle-left"></i></span>
+                <span class="bg-dark rounded-circle p-2" aria-hidden="true"><i class="im im-angle-left p-1" style="vertical-align: middle;"></i></span>
             <span class="visually-hidden">Previous</span>
             </a>
             <a style="opacity: 1;" class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-            <span class="bg-dark rounded-circle p-2" aria-hidden="true"><i class="im im-angle-right"></i></span>
+            <span class="bg-dark rounded-circle p-2" aria-hidden="true"><i class="im im-angle-right p-1" style="vertical-align: middle;"></i></span>
             <span class="visually-hidden">Next</span>
             </a>
         </div>

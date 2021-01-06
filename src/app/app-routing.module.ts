@@ -6,8 +6,10 @@ import { HomeComponent } from './home/home.component';
 import { PhotographsComponent } from './photographs/photographs.component';
 import { SketchesComponent } from './sketches/sketches.component';
 import { RendersComponent } from './renders/renders.component';
+import { AboutmeComponent } from './aboutme/aboutme.component';
 const routes: Routes = [
   {path: '', component: HomeComponent},
+  {path: 'aboutme', component: AboutmeComponent},
   {path: 'mywork/3dwork', component: RendersComponent},
   {path: 'mywork/graphicdesign', component: GraphicsComponent},
   {path: 'mywork/sketches', component: SketchesComponent},

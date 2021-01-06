@@ -11,6 +11,7 @@ import { SketchesComponent } from './sketches/sketches.component';
 import { GraphicsComponent } from './graphics/graphics.component';
 import { RendersComponent } from './renders/renders.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutmeComponent } from './aboutme/aboutme.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     SketchesComponent,
     GraphicsComponent,
     RendersComponent,
-    FooterComponent
+    FooterComponent,
+    AboutmeComponent
   ],
   imports: [
     BrowserModule,
