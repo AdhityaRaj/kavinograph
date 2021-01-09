@@ -18,8 +18,8 @@ export class SketchesComponent implements OnInit {
   createSrcMap() {
     for (let index = 0; index < 3; index++) {
       let array: Array<String> = [];
-      for (let no = 1; no<=11; no++){
-        array.push('assets/mywork/sketches/sketch_'+(no+index*11)+'.jpg');
+      for (let no = 1; no<=8; no++){
+        array.push('assets/mywork/sketches/sketch_'+(no+index*8)+'.jpg');
       }
       this.imgSrc.push(array);
     }
