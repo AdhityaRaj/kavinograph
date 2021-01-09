@@ -50,20 +50,18 @@
 
 #header
     background-attachment: local
-    background-size: contain
+    background-size: cover
     background-repeat: no-repeat
     background-position-y: top
 
     .card-title
         font-weight: 700
-        font-size: 10vw
         width: max-content
     
     .card-subtitle
         color: #ff3434
         text-transform: uppercase
         font-weight: bold
-        font-size: 5vw
         font-family: "Segoe UI"
         &::before
             content: ""
@@ -73,21 +71,23 @@
 
     .card
         border-radius: 20px
-        background: rgb(0,0,0,.75)
+        background: transparentize(white, 0.75)//rgb(0,0,0,.75)
         backdrop-filter: blur(5px)
         box-shadow: 5px 5px 5px rgb(0,0,0,.15)
-        color: whitesmoke
+        color: black
         width: max-content
-
+    
+        a[class^="card-btn-"]
+            box-shadow: 5px 5px 5px rgb(0,0,0,.15)
+            border-radius: 20px
+            color: black
+            
     .card-btn-pri
-        color: whitesmoke
-        border: 1px solid whitesmoke
-        border-radius: 20px
+        // border: 1px solid black
+        background-color: white
 
     .card-btn-sec
-        color: black
         background-color: #ff3434
-        border-radius: 20px
         font-weight: 400
 
 
