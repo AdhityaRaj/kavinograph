@@ -14,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { SocialNavComponent } from './social-nav/social-nav.component';
 import { LazyLoadImageDirective } from './lazy-load-image.directive';
+import { ClientWorksComponent } from './client-works/client-works.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { LazyLoadImageDirective } from './lazy-load-image.directive';
     FooterComponent,
     AboutmeComponent,
     SocialNavComponent,
-    LazyLoadImageDirective
+    LazyLoadImageDirective,
+    ClientWorksComponent
   ],
   imports: [
     BrowserModule,

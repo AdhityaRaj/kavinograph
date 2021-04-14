@@ -10,6 +10,7 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'aboutme', component: AboutmeComponent},
+  {path: 'mywork', redirectTo: '/mywork/3dwork'},
   {path: 'mywork/3dwork', component: RendersComponent},
   {path: 'mywork/graphicdesign', component: GraphicsComponent},
   {path: 'mywork/sketches', component: SketchesComponent},
